@@ -16235,6 +16235,7 @@ GameObject:
   - component: {fileID: 1886461213}
   - component: {fileID: 1886461212}
   - component: {fileID: 1886461211}
+  - component: {fileID: 1886461215}
   m_Layer: 0
   m_Name: MainCamera
   m_TagString: MainCamera
@@ -16289,11 +16290,11 @@ Camera:
     y: 0
     width: 1
     height: 1
-  near clip plane: 0.1
+  near clip plane: 0.3
   far clip plane: 5000
   field of view: 40
   orthographic: 0
-  orthographic size: 10
+  orthographic size: 5
   m_Depth: 0
   m_CullingMask:
     serializedVersion: 2
@@ -16317,13 +16318,47 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1886461208}
   serializedVersion: 2
-  m_LocalRotation: {x: 0.011445323, y: -0.000000017196857, z: 1.9683649e-10, w: 0.9999345}
-  m_LocalPosition: {x: 0, y: 2.6999998, z: -493.4}
+  m_LocalRotation: {x: 0.067891575, y: -7.1648865e-10, z: 4.8756037e-11, w: 0.9976927}
+  m_LocalPosition: {x: 0, y: 2.864581, z: -482.9876}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1886461215
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1886461208}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 72ece51f2901e7445ab60da3685d6b5f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_ShowDebugText: 0
+  m_ShowCameraFrustum: 1
+  m_IgnoreTimeScale: 0
+  m_WorldUpOverride: {fileID: 0}
+  m_UpdateMethod: 2
+  m_BlendUpdateMethod: 1
+  m_DefaultBlend:
+    m_Style: 1
+    m_Time: 2
+    m_CustomCurve:
+      serializedVersion: 2
+      m_Curve: []
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+  m_CustomBlends: {fileID: 0}
+  m_CameraCutEvent:
+    m_PersistentCalls:
+      m_Calls: []
+  m_CameraActivatedEvent:
+    m_PersistentCalls:
+      m_Calls: []
 --- !u!1001 &1905606349
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -19231,9 +19266,9 @@ Transform:
 SceneRoots:
   m_ObjectHideFlags: 0
   m_Roots:
+  - {fileID: 1886461214}
   - {fileID: 607362551}
   - {fileID: 779700545}
-  - {fileID: 1886461214}
   - {fileID: 941843020}
   - {fileID: 857707990}
   - {fileID: 404518906}
