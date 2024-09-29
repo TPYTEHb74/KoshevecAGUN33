@@ -18,16 +18,16 @@ MonoBehaviour:
     Clip: {fileID: 0}
   - Mult: 2
     Text: Wow
-    Clip: {fileID: 0}
+    Clip: {fileID: 7400000, guid: 8c5c54eb7d7978145bffb76f96f46616, type: 2}
   - Mult: 3
     Text: Ok!
-    Clip: {fileID: 0}
+    Clip: {fileID: 7400000, guid: 78b01139c5d499a47b44560641eaf02d, type: 2}
   - Mult: 4
     Text: Excellent!!
-    Clip: {fileID: 0}
+    Clip: {fileID: 7400000, guid: 11d17304688813a4486c20c68cdb851e, type: 2}
   - Mult: 5
     Text: Godlike!!!
-    Clip: {fileID: 0}
+    Clip: {fileID: 7400000, guid: 4174f83288ba2e443998aa3f293a6645, type: 2}
   - Mult: 6
     Text: CARNAGE!!!!
-    Clip: {fileID: 0}
+    Clip: {fileID: 7400000, guid: c2cb0dee1f3860d41bc76573ce5157b3, type: 2}
