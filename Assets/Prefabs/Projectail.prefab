@@ -14,7 +14,7 @@ GameObject:
   - component: {fileID: 717570730326818271}
   - component: {fileID: 251613904139396798}
   - component: {fileID: 7135715063435135153}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Projectail
   m_TagString: Untagged
   m_Icon: {fileID: 0}
